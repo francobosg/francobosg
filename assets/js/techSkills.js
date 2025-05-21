@@ -105,7 +105,19 @@ const techSkills = [
         { icon: `<i class="fa-solid fa-brain text-purple-400"></i>`, name: "Resolución de Problemas", label: "Alta" },
         { icon: `<i class="fa-solid fa-users text-green-600"></i>`, name: "Trabajo en Equipo", label: "Alta" }
       ]
+    },
+    {
+      title: "Automatización Industrial e IA",
+      skills: [
+        { icon: `<i class="fa-solid fa-microchip text-gray-700"></i>`, name: "PLC (Siemens, Schneider)", label: "Junior" },
+        { icon: `<i class="fa-solid fa-robot text-blue-600"></i>`, name: "Automatización Industrial", label: "Intermedio" },
+        { icon: `<i class="fa-solid fa-wave-square text-purple-600"></i>`, name: "SCADA / HMI", label: "Junior" },
+        { icon: `<i class="fa-solid fa-brain text-pink-600"></i>`, name: "IA (Python, TensorFlow)", label: "Junior" },
+        { icon: `<i class="fa-solid fa-code-branch text-orange-500"></i>`, name: "Programación en Ladder", label: "Junior" },
+        { icon: `<i class="fa-solid fa-network-wired text-green-600"></i>`, name: "Profinet / Modbus", label: "Junior" }
+      ]
     }
+    
   ];
   
 

@@ -2,46 +2,62 @@ const recentWorks = [
     {
         title: "Web Personal Antonio Tejero",
         description: "Un sitio web de portafolio personal construido con HTML, CSS, JavaScript, y con integración a base de datos MySQL para almacenamiento de información de contacto.",
-        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP"],
+        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP", "APIs", "VSCode", "Git"],
         video: "/videos/antonio.mp4",
         url: "https://antoniobernalimaginero.com/"
     },
     {
         title: "Web Ayuntamiento El Viso",
         description: "Un sitio web del ayuntamiento del pueblo El Viso construido con HTML, CSS, JavaScript, y WordPress. Integración con bases de datos MySQL para gestión de servicios y citas.",
-        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP", "APIs REST"],
+        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP", "APIs REST", "VSCode", "Git"],
         video: "/videos/aytoelviso.mp4",
         url: "https://ayto-elviso.com/"
     },
     {
         title: "Marketing Digital",
         description: "Un sitio web de marketing digital que incluye formularios de contacto y una base de datos para gestionar leads, construido con HTML, CSS, JS y WordPress.",
-        techs: ["HTML", "CSS", "JS",  "MySQL", "PHP"],
+        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP", "Forms", "SEO", "VSCode"],
         video: "/videos/techstyle.mp4",
         url: "https://techstyle.alwaysdata.net/inicio"
     },
     {
         title: "Marketing Digital Corporativo",
         description: "Un sitio web de marketing digital corporativo que usa API para integración con redes sociales y gestión de campañas, además de bases de datos para estadísticas.",
-        techs: ["HTML", "CSS", "JS", "WordPress", "APIs", "MySQL", "PHP"],
+        techs: ["HTML", "CSS", "JS", "WordPress", "APIs", "MySQL", "PHP", "SEO", "Git", "VSCode"],
         video: "/videos/investigayeduca.mp4",
         url: "https://investigayeduca.com/"
     },
     {
         title: "Marketing para la Comunidad",
         description: "Página de marketing digital para outreach comunitario con integración de formularios de contacto y sistema de gestión de usuarios mediante base de datos MySQL.",
-        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP", "APIs REST"],
+        techs: ["HTML", "CSS", "JS", "WordPress", "MySQL", "PHP", "APIs REST", "SEO", "VSCode"],
         video: "/videos/discapacidadtic.mp4",
         url: "https://investigayeduca.com/discapacidadtic/"
     },
     {
         title: "Servicios de Apoyo Familiar",
         description: "Sitio web para servicios de apoyo familiar con backend en PHP y base de datos MySQL para gestionar solicitudes y contactos.",
-        techs: ["HTML", "CSS", "JS","MySQL", "PHP"],
+        techs: ["HTML", "CSS", "JS", "MySQL", "PHP", "Backend", "Git", "VSCode"],
         video: "/videos/acogimientofamiliarandalucia.mp4",
         url: "https://acogimientofamiliarandalucia.com/"
+    },
+    {
+        title: "Portfolio Fran Cobos",
+        description: "Mi portfolio personal con proyectos, experiencia y habilidades. Desarrollado con HTML, CSS y JS, alojado en Netlify.",
+        techs: ["HTML", "CSS", "JS", "TailwindCSS", "Flowbite", "FontAwesome", "Vite", "VSCode", "Netlify", "Git"],
+        video: "/videos/porfolio.mp4",
+        url: "https://francobosg.netlify.app/"
+    },
+    {
+        title: "Blog Fran Cobos",
+        description: "¡Bienvenido a mi blog! Aquí encontrarás ejercicios y recursos sobre DAW, SMR, ASIR, DAM y mucho más. Publicado con GitHub Pages. Fue mi primer proyecto académico y ha conseguido más de 20.000 vistas en Google Analytics.",
+        techs: ["HTML", "CSS", "JS", "Markdown", "GitHub Pages", "VSCode", "Git", "SEO"],
+        video: "/videos/blog.mp4", 
+        url: "https://francobosg.github.io/"
     }
+
 ];
+
 
 const parent = document.getElementById('recent-works');
 
